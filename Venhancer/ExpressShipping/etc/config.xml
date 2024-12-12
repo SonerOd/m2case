@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/config.xsd">
+    <default>
+        <carriers>
+            <venhancer_expressshipping>
+                <active>1</active>
+                <model>Venhancer\ExpressShipping\Model\Carrier\ExpressShipping</model>
+                <title>Venhancer Express Shipping</title>
+                <name>Express Shipping</name>
+                <max_weight>20</max_weight>
+                <handling_fee>5</handling_fee>
+                <specificerrmsg>ExpressShipping is not available for the current order weight.</specificerrmsg>
+            </venhancer_expressshipping>
+        </carriers>
+    </default>
+</config>
